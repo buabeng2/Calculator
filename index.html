@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <script src="calculator.js" defer></script>
+    <link href="stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="calculator">
+        <div class="value-area">
+            <div class="computation"></div>
+            <div class="value">0</div>
+        </div>
+        <div class="operators-numbers">
+            <div class="operators first">
+                <button class="operator-button black-color" id="clear">C</button>
+                <button class="operator-button black-color">+/-</button>
+                <button class="operator-button black-color">%</button>
+                <button class="operator-button pink-color" id="division">/</button>
+            </div>
+            <div class="operators second">
+                <button class="operator-button gray-color">1</button>
+                <button class="operator-button gray-color">2</button>
+                <button class="operator-button gray-color">3</button>
+                <button class="operator-button pink-color" id="multiplication">x</button>
+            </div>
+            <div class="operators third">
+                <button class="operator-button gray-color">4</button>
+                <button class="operator-button gray-color">5</button>
+                <button class="operator-button gray-color">6</button>
+                <button class="operator-button pink-color" id="minus">-</button>
+            </div>
+            <div class="operators fourth">
+                <button class="operator-button gray-color">7</button>
+                <button class="operator-button gray-color">8</button>
+                <button class="operator-button gray-color">9</button>
+                <button class="operator-button pink-color">+</button>
+            </div>
+            <div class="operators last">
+                <button class="operator-button gray-color" id="zero">0</button>
+                <button class="operator-button gray-color">.</button>
+                <button class="operator-button pink-color" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <span>&copy; Jared.dev</span>
+    </div>
+    
+</body>
+</html>
