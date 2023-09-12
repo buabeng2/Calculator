@@ -1,2 +1,2 @@
 # Calculator
-This project will combine HTML, CSS, and Javascript in order to create an online calculator
+The project implements an online calculator that can conduct basic functions and outputs. Focused on the usage of HTML and CSS in order to provide structure to the app itself and then javascript for the calculation process
